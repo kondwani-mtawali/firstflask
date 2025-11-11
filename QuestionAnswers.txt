@@ -1,0 +1,10 @@
+What process did you follow for creating the dockerfile?
+I created my dockerfile using the same process shown in class. I defined
+the image 'type' that's to be built. I ran a mkdir command to create a folder
+for the server app, set the container inside the directory, copied all the necessary 
+files and folders from my flask app, and lastly exposed it to the correct port. 
+
+What docker commands did you use to run the image?
+I built the docker image on my machine locally, tagged it, then I created my own
+docker hub account and pushed my image onto the hub, similar process to pushing repositories with github. 
+I pulled the image from my docker hub onto the server and ran the containerized app from there. 
